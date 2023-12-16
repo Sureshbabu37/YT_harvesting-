@@ -1,5 +1,5 @@
 # new corrected project
-#my youtoube api key = AIzaSyDB3SY1YGewmnuWau1x1Eupi9cZGf47_AE
+#my youtoube api key = your own api key
 
 ''' installing and importing packages into the python 
     * pip install streamlit
@@ -14,7 +14,7 @@ import streamlit as st
 from googleapiclient.discovery import build
 #API key connection
 def Api_connect():
-    Api_Id="AIzaSyDB3SY1YGewmnuWau1x1Eupi9cZGf47_AE"
+    Api_Id="your own api key"
 
     api_service_name = "youtube"
     api_version = "v3"
@@ -149,7 +149,7 @@ def get_comment_info(video_ids):
                 
         return Comment_Information
 #MongoDB Connection
-client = pymongo.MongoClient("mongodb+srv://ketavan:0037@cluster0.l82dcrt.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://<password>@cluster0.l82dcrt.mongodb.net/?retryWrites=true&w=majority")
 db = client["YT_project"]
 
 
