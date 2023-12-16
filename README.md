@@ -37,6 +37,7 @@ Acquire your own YouTube API key and replace the placeholder in the script for s
 Installation:
 
 Install the required Python packages using pip. Ensure you have Streamlit, pymongo, pandas, and the Google API Python client library.
+
 Data Harvesting:
 
 Input the desired YouTube channel IDs and click the "Collect and Store Data" button to gather information.
@@ -52,6 +53,7 @@ Use the Streamlit interface to explore channel details, playlists, videos, and c
 Analytical Queries:
 
 Choose from a variety of predefined questions such as the most viewed videos, channels with the highest likes, and videos with the most comments.
+
 Enhance Your Understanding:
 Whether you're diving into the world of YouTube analytics for professional insights or just curious about your favorite content creators, this Python script provides a bridge between raw data and meaningful insights. Explore, analyze, and discover the fascinating trends within the vast landscape of YouTube content.
 
